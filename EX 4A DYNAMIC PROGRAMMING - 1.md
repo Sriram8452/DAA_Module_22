@@ -13,13 +13,17 @@ To find longest common subsequence using Dynamic Programming.
 5. Print the matching characters along the path.  
 
 ## Program:
+
+```
 /*
 Program to implement the longest common subsequence using Dynamic Programming
 
+.
 Developed by: Sriram Gopalan G
-Register Number: 212222230149 
+Register Number:  212222230149
 */
 ```
+
 def lcs(u, v):
     """Return c where c[i][j] contains length of LCS of u[i:] and v[j:]."""
     c = [[-1]*(len(v) + 1) for _ in range(len(u) + 1)]
